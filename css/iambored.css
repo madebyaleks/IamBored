@@ -31,6 +31,10 @@ a {
 a:hover {
 	color: #242322;
 	-webkit-transition: 0.2s ease-in-out;
+	-moz-transition: 0.2s ease-in-out;
+	-o-transition: 0.2s ease-in-out;
+	-moz-transition: 0.2s ease-in-out;
+	transition: 0.2s ease-in-out;
 }
 
 section.everything {
@@ -88,6 +92,10 @@ button:hover {
 	border-radius: 6px;
 	color: #00ACEE;
 	-webkit-transition: 0.3s ease-in-out;
+	-moz-transition: 0.3s ease-in-out;
+	-o-transition: 0.3s ease-in-out;
+	-moz-transition: 0.3s ease-in-out;
+	transition: 0.3s ease-in-out;
 }
 
 footer {
@@ -103,3 +111,5 @@ footer {
 footer:hover {
 	opacity: 1;
 }
+
+@media screen and (max-width: )

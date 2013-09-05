@@ -13,3 +13,6 @@ RewriteRule ^(.*)$ $1.php
 </IfModule>  
 
 IndexOptions +Charset=UTF-8
+
+RewriteRule ^apple-touch-icon-precomposed\.png$ images/touch-icon-512.png [L]
+RewriteRule ^apple-touch-icon-precomposed[0-9].* images/touch-icon-512.png [L]
