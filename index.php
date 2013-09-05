@@ -15,18 +15,19 @@ if(isset($_POST['play'])){
 	<meta name="description" value="Bored? Play internet roulette and get a random word, Imgur photo, Wikipedia article, subreddit and more">
 	<link rel="stylesheet" type="text/css" href="css/normalize.min.css">
 	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Raleway:700,500,100">
-	<link rel="stylesheet" type="text/css" href="css/iambored<?php cssVersion();?>">
+	<link rel="stylesheet" type="text/css" href="css/iambored.css">
 </head>
 <body>
 <section class="everything">
 	<section class="flex-container">
 		<form method="POST" target="/">
-			<button name="play" value="yes" target="process"><?php buttonText(); ?></button>
+			<button id="bigbluebutton" name="play" value="yes" target="process"><?php buttonText(); ?></button>
 		</form>
 	</section>
 </section>
 <footer>
-<p>A thing <a href="http://twitter.com/madebyaleks">Made by Aleks</a> | <a href="about">What is this?</a> <br> <span class="warning"><b>NOTE:</b> You might get <abbr title="Not Safe For Work">NSFW</abbr> content!</span>
+<p>A thing <a href="https://twitter.com/madebyaleks">Made by Aleks</a> | <a href="about">What is this?</a> | <span class="warning"><b>NOTE:</b> You might get <abbr title="Not Safe For Work">NSFW</abbr> content!</span>
 </footer>
-</body
+<?php toggleWarning(); ?>
+</body>
 </html>

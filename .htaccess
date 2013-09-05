@@ -3,6 +3,8 @@
     deny from all
 </Files>
 
+ErrorDocument 404 /
+
 <IfModule mod_rewrite.c>  
 RewriteEngine on   
 RewriteCond %{REQUEST_FILENAME} !-d   

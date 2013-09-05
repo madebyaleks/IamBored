@@ -18,32 +18,16 @@ function buttonText() {
 		'Play internet roulette!',
 		'Show me something!',
 		'Click me!',
+		'Do NOT click me',
 	);
 	shuffle($button_text);
 	$chosen_text = ($button_text[0]);
 	print($chosen_text);
 }
 
-
-function cssVersion() {
-	if(!isset($_GET['beta'])){
-		print(".min.css");
-	}
-	
-	else {
-		print(".css");
-	}
-}
-
-function fbGetUser() {
-require 'fb-sdk/src/facebook.php';
-
-$facebook = new Facebook(array(
-  'appId'  => '569703843066225',
-  'secret' => '18fda0f3e7a766d3edbdc7097e7ad845',
-));
-
-// Get User ID
-$user = $facebook->getUser();
+function toggleWarning() {
+if(isset($_GET['warnings'])){
+	print("<script type=\"text/javascript\">document.getElementById('bigbluebutton').onclick = function(){return confirm (\"NOTE: The sites are randomly chosen. You might get NSFW content! Is that alright?\");};</script>");
+};
 }
 ?>

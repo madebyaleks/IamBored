@@ -12,11 +12,11 @@ body {
 }
 
 h1 {
+	color: #00506E;
 	font-family: "helvetica neue", helvetica;
 	font-size: 40px;
-	font
+	font-weight: 300;
 }
-font
 
 b {
 	font-weight: 600;
