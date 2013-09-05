@@ -112,4 +112,9 @@ footer:hover {
 	opacity: 1;
 }
 
-@media screen and (max-width: )
+@media screen and (max-width: 583px) {
+
+footer {
+	height: 50px;
+}
+}

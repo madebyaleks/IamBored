@@ -16,7 +16,7 @@ if(isset($_POST['play'])){
 	<link rel="stylesheet" type="text/css" href="css/normalize.min.css">
 	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Raleway:700,500,100">
 	<link rel="stylesheet" type="text/css" href="css/iambored.css">
-	<link rel="icon" type="image/png" href="/images/favicon.png">
+	<link rel="icon" type="image/png" href="/images/favicon-transparent.png">
 </head>
 <body>
 <section class="everything">

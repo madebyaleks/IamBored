@@ -16,7 +16,7 @@ function buttonText() {
 	$button_text = array(
 		'I\'m bored!',
 		'Play internet roulette!',
-		'Show me something!',
+		'Show me a site!',
 		'Click me!',
 		'Do NOT click me',
 	);
