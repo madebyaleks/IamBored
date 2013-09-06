@@ -12,15 +12,16 @@ RewriteCond %{REQUEST_FILENAME}\.php -f
 RewriteRule ^(.*)$ $1.php 
 </IfModule>  
 
+# !-- CACHE INACTIVE --!
 #Cache images for 1 month
-<FilesMatch ".(jpg|jpeg|png|svg)$">
-Header set Expires "max-age=1814400, public"
-</FilesMatch>
+#<FilesMatch ".(jpg|jpeg|png|svg)$">
+#Header set Expires "max-age=1814400, public"
+#</FilesMatch>
 
 #Cache php files for 1 week
-<FilesMatch ".(php)$">
-Header set Cache-Control "max-age=604800, public"
-</FilesMatch>
+#<FilesMatch ".(php)$">
+#Header set Cache-Control "max-age=604800, public"
+#</FilesMatch>
 
 <ifModule mod_gzip.c>
   mod_gzip_on Yes
