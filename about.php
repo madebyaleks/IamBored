@@ -29,28 +29,12 @@
 			<li>Repeat from step 2</li>
 		</ol>
 	</p>
+	<h1>For geeks</h1>
+	<p>The project is open sourced and availible at <a href="https://github.com/madebyaleks/iambored/"></a>GitHub</p>.
 	<p>&nbsp;</p>
 </section>
 <footer>
 <p>A thing <a href="https://twitter.com/madebyaleks">Made by Aleks</a> | <a href="about">What is this?</a>
 </footer>
-<!-- GoSquared -->
-<script type="text/javascript">
-  var GoSquared = {};
-  GoSquared.acct = "GSN-489055-F";
-  (function(w){
-    function gs(){
-      w._gstc_lt = +new Date;
-      var d = document, g = d.createElement("script");
-      g.type = "text/javascript";
-      g.src = "//d1l6p2sc9645hc.cloudfront.net/tracker.js";
-      var s = d.getElementsByTagName("script")[0];
-      s.parentNode.insertBefore(g, s);
-    }
-    w.addEventListener ?
-      w.addEventListener("load", gs, false) :
-      w.attachEvent("onload", gs);
-  })(window);
-</script>
 </body>
 </html>
