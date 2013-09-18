@@ -6,6 +6,7 @@ function selectSite() {
 		'http://imgur.com/random',
 		'http://dynamic.xkcd.com/random/comic/',
 		'http://www.urbandictionary.com/random.php',
+		'http://theoatmeal.com/random',
 	);
 	shuffle($sites);
 	$the_chosen_one = ($sites[0]);
@@ -30,4 +31,15 @@ if(isset($_GET['warnings'])){
 	print("<script type=\"text/javascript\">document.getElementById('bigbluebutton').onclick = function(){return confirm (\"NOTE: The sites are randomly chosen. You might get NSFW content! Is that alright?\");};</script>");
 };
 }
+
+// function getCategory() {
+// $category = strip_tags($_GET['type']);
+// switch ($category) {
+// 	case 'value':
+// 		break;
+// 	default:
+// 		$all
+// 		break;
+// }
+// }
 ?>
