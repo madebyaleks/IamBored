@@ -27,19 +27,12 @@ function buttonText() {
 }
 
 function toggleWarning() {
-if(isset($_GET['warnings'])){
+if(isset($_GET['warning'])){
 	print("<script type=\"text/javascript\">document.getElementById('bigbluebutton').onclick = function(){return confirm (\"NOTE: The sites are randomly chosen. You might get NSFW content! Is that alright?\");};</script>");
 };
 }
 
-// function getCategory() {
-// $category = strip_tags($_GET['type']);
-// switch ($category) {
-// 	case 'value':
-// 		break;
-// 	default:
-// 		$all
-// 		break;
-// }
+// function sfwMode() {
+//	// Thinking...
 // }
 ?>
