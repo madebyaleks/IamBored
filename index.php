@@ -29,5 +29,6 @@ if(isset($_POST['play'])){
 <footer>
 <p>A thing <a href="https://twitter.com/madebyaleks">Made by Aleks</a> | <a href="about">What is this?</a> | <span class="warning"><b>NOTE:</b> You might get <abbr title="Not Safe For Work">NSFW</abbr> content!</span>
 </footer>
+<?php require("analytics.php"); ?>
 </body>
 </html>

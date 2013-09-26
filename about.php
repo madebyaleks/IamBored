@@ -26,7 +26,7 @@
 			<li>Click the big blue button</li>
 			<li>A new tab opens, this is the random site.</li>
 			<li>Close the tab that just opened</li>
-			<li>Repeat from step 2</li>
+			<li>Repeat step 2</li>
 		</ol>
 	</p>
 	<h1>For geeks</h1>
@@ -34,7 +34,8 @@
 	<p>&nbsp;</p>
 </section>
 <footer>
-<p>A thing <a href="https://twitter.com/madebyaleks">Made by Aleks</a> | <a href="about">What is this?</a>
+<p>A thing <a href="https://twitter.com/madebyaleks">Made by Aleks</a> | <a href="/">Back to the big button!</a>
 </footer>
+<?php require("analytics.php"); ?>
 </body>
 </html>

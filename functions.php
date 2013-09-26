@@ -1,13 +1,7 @@
 <?php
 function selectSite() {
-	$sites = array(
-		'http://reddit.com/r/random',
-		'https://en.wikipedia.org/wiki/Special:Random',
-		'http://imgur.com/random',
-		'http://dynamic.xkcd.com/random/comic/',
-		'http://www.urbandictionary.com/random.php',
-		'http://theoatmeal.com/random',
-	);
+	require('sites.php');	
+	
 	shuffle($sites);
 	$the_chosen_one = ($sites[0]);
 	header("location: $the_chosen_one");
@@ -19,7 +13,8 @@ function buttonText() {
 		'Play internet roulette!',
 		'Show me a site!',
 		'Click me!',
-		'Do NOT click me',
+		'Hello!',
+		'Here I am!',
 	);
 	shuffle($button_text);
 	$chosen_text = ($button_text[0]);
@@ -31,8 +26,4 @@ if(isset($_GET['warning'])){
 	print("<script type=\"text/javascript\">document.getElementById('bigbluebutton').onclick = function(){return confirm (\"NOTE: The sites are randomly chosen. You might get NSFW content! Is that alright?\");};</script>");
 };
 }
-
-// function sfwMode() {
-//	// Thinking...
-// }
 ?>
