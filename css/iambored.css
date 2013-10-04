@@ -169,12 +169,20 @@ button.new-site {
 	border-radius: 10px;
 	cursor: hand;
 	font-size: 20px;
+	font-weight: 500;
 	padding: 10px;
 	min-width: 70%;
 }
 
 button.help {
-	
+	border: 2px solid #E8360E;
+	border-radius: 10px;
+	cursor: hand;
+	color: #E8360E;
+	font-size: 20px;
+	font-weight: 500;
+	padding: 10px;
+	min-width: 25%;
 }
 
 
