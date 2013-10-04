@@ -2,6 +2,11 @@ body {
 	background-color: #18181C;
 }
 
-p {
+p, a {
 	color: #FFFFFD;
+}
+
+button {
+	color: #FFFFFD;
+	border-color: #FFFFFD;
 }

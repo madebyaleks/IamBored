@@ -29,9 +29,26 @@
 			<li>Repeat step 2</li>
 		</ol>
 	</p>
+
 	<h1>For geeks</h1>
-	<p>The project is open sourced and availible at <a href="https://github.com/madebyaleks/iambored/"></a>GitHub</p>.
-	<p>&nbsp;</p>
+	<p>The project is open sourced and availible at <a href="https://github.com/madebyaleks/iambored/">GitHub</a></p>
+	<p>It is written in php, html and css, and runs perfectly on <a href="https://heroku.com">Heroku</a>. It is fueled by coffee and the amazing work of others.</p>
+
+	<h1>Current sites:</h1>
+		<ul>
+			<li>Reddit</li>
+			<li>Wikipedia</li>
+			<li>Imgur</li>
+			<li>Urban dictionary</li>
+			<li>XKCD</li>
+			<li>The Oatmeal</li>
+			<li>Cracked</li>
+			<li>Bugmartini</li>
+		</ul>
+
+	<h1>Please remove my site!</h1>
+	<p>Okay :( Sad to ear that. <br/>
+	Send me an <a href="mailto:imaleks96@me.com?subject=Please remove my site from I am bored.">email</a> and I will remove it instantly. If you also could explain why, that would be great!</p>
 </section>
 <footer>
 <p>A thing <a href="https://twitter.com/madebyaleks">Made by Aleks</a> | <a href="/">Back to the big button!</a>
