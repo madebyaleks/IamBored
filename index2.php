@@ -18,7 +18,7 @@ require("functions.php");
 </head>
 <body>
 <header class="overlay">
-	<button class="new-site">New site!</button> <button class="help">?</button>
+	<button class="new-site">New site!</button> <button class="help"> ?</button>
 </header>
 <iframe src="<?php if(isset($_POST['play'])){ selectSite(); }; ?>" ></iframe>
 <?php require("analytics.php"); ?>

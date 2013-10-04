@@ -165,13 +165,16 @@ header.overlay {
 	width: calc(100% - 20px;);
 }
 
-button.overlay {
+button.new-site {
 	border-radius: 10px;
 	cursor: hand;
 	font-size: 20px;
 	padding: 10px;
 	min-width: 70%;
+}
 
+button.help {
+	
 }
 
 
